@@ -1,0 +1,43 @@
+body {
+  background: #effffd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+th {
+  border: none;
+  border-radius: 5%;
+  color: #effffd;
+}
+td {
+  border: none;
+  text-align: center;
+  background: #fdffa9;
+}
+
+thead {
+  background: #019267;
+  border: none;
+}
+
+.button {
+  color: #5902ec;
+  background: #f473b9;
+  margin: 2em;
+  height: 30px;
+  width: 60px;
+  border-radius: 10%;
+  border: none;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #0e185f;
+  color: #caf0f8;
+}
+
+table {
+  width: 500px;
+}
