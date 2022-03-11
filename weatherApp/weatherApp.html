@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="weatherApp.css" />
+
+    <title>Weather App</title>
+  </head>
+  <body>
+    <nav class="navContainer">
+      <div class="nav">
+        <ul class="navbarItems">
+          <a href="#"><li id="statistics">Statistics</li></a>
+          <a href="#"><li id="hourly">Hourly</li></a>
+        </ul>
+      </div>
+      <div class="search">
+        <input id="city" type="text" placeholder="Enter City Here" />
+        <button id="search" class="btn">search</button>
+      </div>
+    </nav>
+
+    <div class="main">
+      <h1><strong></strong></h1>
+      <div class="container">
+        <div class="result_one"></div>
+        <div class="result_two"></div>
+      </div>
+      <div class="result_three"></div>
+    </div>
+
+    <div class="tableDiv"></div>
+
+    <script src="weatherApp.js"></script>
+  </body>
+</html>
