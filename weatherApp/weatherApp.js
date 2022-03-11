@@ -213,7 +213,7 @@ let generateTable = (cityData) => {
 };
 //----------------------------------------------------------------
 async function getCity(city) {
-  let myApiKey = "this key is private ... :) ";
+  let myApiKey = "this key is private ...:) ";
   try {
     const res = await fetch(
       `https://api.openweathermap.org/data/2.5/forecast?q=${city}&units=metric&APPID=${myApiKey}`
